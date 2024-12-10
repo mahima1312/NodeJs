@@ -1,0 +1,12 @@
+//we are tellling to the git ignore these files because
+our project has one single file known as package.json then we dont require node_modules
+bacause node_modules file is nothing but bunch of files so whenever we want to get these bunch of files onto this given
+particular Github account it is the waste of space in the cloud itself that1s why we need to include this gitignore files
+
+/node_modules
+
+
+//why env because env files are very imp usually we dont want to send it or store it onto the git unless ur project is an open source project
+/.env
+/dev-data.json
+/notes.md 
